@@ -17,9 +17,9 @@
 
 ## 실행과 배포
 
-[실험실 열기](https://ray-math.github.io/probability-lab/)
+[실험실 열기](https://ray-math.github.io/labs/probability/)
 
-공개 저장소의 index.html은 스타일과 JavaScript 모듈을 모두 포함하는 단일 배포 파일입니다. 모듈은 import map의 base64 data URL로 포함되며 외부 JavaScript 의존성이 없습니다. GitHub Pages는 main 브랜치의 루트를 배포합니다. 학생 로그인이나 서버 저장은 사용하지 않습니다.
+공개 저장소의 index.html은 스타일과 JavaScript 모듈을 모두 포함하는 단일 배포 파일입니다. 모듈은 import map의 base64 data URL로 포함되며 외부 JavaScript 의존성이 없습니다. GitHub Pages는 labs 저장소의 main 브랜치 루트를 배포하며, 이 실험실은 probability/에 있습니다. 학생 로그인이나 서버 저장은 사용하지 않습니다.
 
 최적화는 표시되지 않는 시행의 문자열·경로 객체 생성을 생략하고 쿠폰 수집 상태를 비트 집합으로 관리합니다. 원래 모형과 같은 난수 소비 순서, 누적합, 빈도, 차트 점, 최근 결과 및 매 시행 오차 기록이 일치하는 테스트를 통과했습니다. 몬티홀 진행자도 동일한 규칙과 난수 순서를 유지하며 임시 배열만 제거했습니다. 전체 테스트 64개 통과.
 
